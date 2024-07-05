@@ -1,0 +1,312 @@
+16-Jul-2020 11:31:48.640 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'useCaches' to 'true' did not find a matching property.
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Secure Web Server
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 01 2000 00:00:00 UTC
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         1.0.0.0
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-80.el8.x86_64
+16-Jul-2020 11:31:48.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_51/jre
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/iocl/tomcat
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/iocl/tomcat
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/iocl/tomcat/conf/logging.properties
+16-Jul-2020 11:31:48.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.coyote.USE_CUSTOM_STATUS_MSG_IN_HEADER=false
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.connector.RECYCLE_FACADES=true
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.connector.CoyoteAdapter.ALLOW_BACKSLASH=false
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=false
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms12G
+16-Jul-2020 11:31:48.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx12G
+16-Jul-2020 11:31:48.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:NewSize=4G
+16-Jul-2020 11:31:48.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxNewSize=4G
+16-Jul-2020 11:31:48.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxGCPauseMillis=100
+16-Jul-2020 11:31:48.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:InitiatingHeapOccupancyPercent=70
+16-Jul-2020 11:31:48.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxMetaspaceSize=2G
+16-Jul-2020 11:31:48.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ParallelGCThreads=20
+16-Jul-2020 11:31:48.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ConcGCThreads=5
+16-Jul-2020 11:31:48.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+16-Jul-2020 11:31:48.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:/usr/iocl/tomcat/logs/garbage-collection.log
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCApplicationStoppedTime
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDateStamps
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/iocl/tomcat
+16-Jul-2020 11:31:48.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/iocl/tomcat
+16-Jul-2020 11:31:48.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/iocl/tomcattemp
+16-Jul-2020 11:31:48.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+16-Jul-2020 11:31:48.835 WARNING [main] org.apache.catalina.security.SecurityListener.checkUmask No umask setting was found in system property [org.apache.catalina.security.SecurityListener.UMASK]. However, it appears Tomcat is running on a platform that supports umask. The system property is typically set in CATALINA_HOME/bin/catalina.sh. The Lifecycle listener org.apache.catalina.security.SecurityListener (usually configured in CATALINA_BASE/conf/server.xml) expects a umask at least as restrictive as [0007]
+16-Jul-2020 11:31:48.867 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio2-8080"]
+16-Jul-2020 11:31:48.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 11:31:48.935 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Jul-2020 11:31:48.937 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 556 ms
+16-Jul-2020 11:31:48.955 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+16-Jul-2020 11:31:48.955 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Secure Web Server
+16-Jul-2020 11:31:48.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/iocl/tomcat/webapps/.svn
+16-Jul-2020 11:31:48.988 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'enableLookups' to 'false' did not find a matching property.
+16-Jul-2020 11:31:49.372 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2020 11:31:49.408 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: /usr/iocl/tomcat/work/Catalina/localhost/.svn is unusable.
+16-Jul-2020 11:31:49.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/iocl/tomcat/webapps/.svn has finished in 453 ms
+16-Jul-2020 11:31:49.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/iocl/tomcat/webapps/AUA
+16-Jul-2020 11:31:49.417 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'enableLookups' to 'false' did not find a matching property.
+16-Jul-2020 11:31:50.823 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2020 11:31:53.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/iocl/tomcat/webapps/AUA has finished in 3,844 ms
+16-Jul-2020 11:31:53.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/iocl/tomcat/webapps/auaportal
+16-Jul-2020 11:31:53.262 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'enableLookups' to 'false' did not find a matching property.
+16-Jul-2020 11:31:53.717 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [META-INF/versions/9/module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/bcprov-jdk15on-1.62.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:54.130 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-module-parameter-names-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:54.158 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-annotations-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:54.319 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-core-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:54.577 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-databind-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:54.714 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-datatype-jsr310-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:55.144 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/classmate-1.5.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:55.301 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [file:/usr/iocl/tomcat/webapps/auaportal/WEB-INF/lib/jackson-datatype-jdk8-2.10.1.jar] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:55.577 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2020 11:31:58.685 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/auaportal]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Duplicate Filter registration for 'springSecurityFilterChain'. Check to ensure the Filter is only configured once.
+	at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.registerFilter(AbstractSecurityWebApplicationInitializer.java:216)
+	at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.insertSpringSecurityFilterChain(AbstractSecurityWebApplicationInitializer.java:150)
+	at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.onStartup(AbstractSecurityWebApplicationInitializer.java:123)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5178)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+16-Jul-2020 11:31:58.686 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory /usr/iocl/tomcat/webapps/auaportal
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/auaportal]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Jul-2020 11:31:58.686 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/iocl/tomcat/webapps/auaportal has finished in 5,426 ms
+16-Jul-2020 11:31:58.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio2-8080]
+16-Jul-2020 11:31:58.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+16-Jul-2020 11:31:58.693 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9756 ms

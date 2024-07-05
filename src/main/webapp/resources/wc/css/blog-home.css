@@ -1,0 +1,412 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+	padding-top: 50px;
+	/* 	background-color: #edffff; */
+	/* 	background-size: cover; */
+	/* 	background-attachment: fixed; */
+	/* 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; */
+	/* 	filter: alpha(opacity = 40); */
+	/* 	-moz-opacity: 0.5; */
+	/* 	-khtml-opacity: 0.5; */
+	/* 	opacity: 0.8; */
+}
+
+footer {
+	/* 	position: relative; */
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+option {
+	margin: 0.5em;
+}
+
+.dropdown {
+	padding-top: 7px;
+}
+
+.dropdownonline {
+	padding-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 0px;
+}
+
+.dropdownoffline {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#result {
+	margin-bottom: 5px;
+	/* 	float: left; */
+	/* 	line-height: 10px; */
+}
+
+.navbar {
+	padding: 0px;
+}
+
+.onlineOffline {
+	padding-left: 10px;
+}
+
+.fa-check-circle:before {
+	font-size: 24px;
+	color: green;
+}
+
+.fa-times-circle:before {
+	color: red;
+	font-size: 24px;
+}
+
+/* OTP request */
+.new-login-area {
+	padding: 24px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+label {
+	font-size: 16px;
+	line-height: 1px;
+	font-weight: 800;
+	color: gray;
+}
+
+.request-otp-header {
+	margin: 40px 0px;
+}
+
+.login-label label {
+	color: #c74032;
+	font-weight: 600;
+}
+
+.input-edit {
+	border: none !important;
+	border-bottom: 2px solid #ccc !important;
+	padding: 6px 0px;
+	opacity: 0.8;
+}
+
+.input-edit:focus {
+	border-bottom-color: #c74032 !important;
+	box-shadow: none;
+	outline: 0;
+}
+
+/* .request-otp { */
+/* 	margin-top: 40px; */
+/* 	background: linear-gradient(#c74032, #91041b); */
+/* 	font-size: 14px; */
+/* 	color: #fff; */
+/* } */
+.request-otp:focus {
+	box-shadow: none;
+}
+
+.fa-chevron-left {
+	cursor: pointer;
+}
+
+.resend-otp {
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+/* Offline */
+/* .onlineofflinehedder input { */
+/* 	font-family: sans-serif; */
+/* 	font-weight: 1200; */
+
+/* } */
+
+/* .switch { */
+/* 	position: relative; */
+/* 	top: 50%; */
+/* 	left: 50%; */
+/* 	width: 200px; */
+/* 	height: 50px; */
+/* 	text-align: center; */
+/* 	margin: -1px 0 0 -45px; */
+/* 	background: #00bc9c; */
+/* 	transition: all 0.2s ease; */
+/* 	border-radius: 25px; */
+/* 	position: relative; */
+/* 	font-weight: 900; */
+/*     font-family: 'Lato', sans-serif; */
+/* } */
+
+/* .switch span { */
+/* 	position: absolute; */
+/* 	width: 20px; */
+/* 	height: 4px; */
+/* 	top: 50%; */
+/* 	left: 50%; */
+/* 	margin: -2px 0px 0px -4px; */
+/* 	background: #fff; */
+/* 	display: block; */
+/* 	transform: rotate(-45deg); */
+/* 	transition: all 0.2s ease; */
+/* } */
+
+/* .switch span:after { */
+/* 	content: ""; */
+/* 	display: block; */
+/* 	position: absolute; */
+/* 	width: 4px; */
+/* 	height: 12px; */
+/* 	margin-top: -8px; */
+/* 	background: #fff; */
+/* 	transition: all 0.2s ease; */
+/* } */
+
+/* input[type=radio] { */
+/* 	display: none; */
+/* } */
+
+/* .switch label { */
+/* 	cursor: pointer; */
+/* 	color: rgba(0, 0, 0, 0.2); */
+/* 	width: 92px; */
+/* 	line-height: 50px; */
+/* 	transition: all 0.2s ease; */
+/* } */
+
+/* label[for=yes] { */
+/* 	position: absolute; */
+/* 	left: 0px; */
+/* 	height: 20px; */
+/* } */
+
+/* label[for=no] { */
+/* 	position: absolute; */
+/* 	right: 0px; */
+/* } */
+
+/* #no:checked ~ .switch { */
+/* 	background: #eb4f37; */
+/* } */
+
+/* #no:checked ~ .switch span { */
+/* 	background: #fff; */
+/* 	margin-left: -8px; */
+/* } */
+
+/* #no:checked ~ .switch span:after { */
+/* 	background: #fff; */
+/* 	height: 20px; */
+/* 	margin-top: -8px; */
+/* 	margin-left: 8px; */
+/* } */
+
+/* #yes:checked ~ .switch label[for=yes] { */
+/* 	color: #fff; */
+/* } */
+
+/* #no:checked ~ .switch label[for=no] { */
+/* 	color: #fff; */
+/* } */
+
+/* [type="radio"]:checked, */
+/* [type="radio"]:not(:checked) { */
+/*     position: absolute; */
+/*     left: -9999px; */
+/* } */
+/* [type="radio"]:checked + label, */
+/* [type="radio"]:not(:checked) + label */
+/* { */
+/*     position: relative; */
+/*     padding-left: 28px; */
+/*     cursor: pointer; */
+/*     line-height: 20px; */
+/*     display: inline-block; */
+/*     color: #666; */
+/*     font-weight: bold; */
+/* } */
+/* [type="radio"]:checked + label:before, */
+/* [type="radio"]:not(:checked) + label:before { */
+/*     content: ''; */
+/*     position: absolute; */
+/*     left: 0; */
+/*     top: 0; */
+/*     width: 18px; */
+/*     height: 18px; */
+/*     border: 1px solid #ddd; */
+/*     border-radius: 100%; */
+/*     background: #fff; */
+/* } */
+/* [type="radio"]:checked + label:after, */
+/* [type="radio"]:not(:checked) + label:after { */
+/*     content: ''; */
+/*     width: 12px; */
+/*     height: 12px; */
+/*     background: #17a2b8; */
+/*     position: absolute; */
+/*     top: 4px; */
+/*     left: 4px; */
+/*     border-radius: 100%; */
+/*     -webkit-transition: all 0.2s ease; */
+/*     transition: all 0.2s ease; */
+/* } */
+/* [type="radio"]:not(:checked) + label:after { */
+/*     opacity: 0; */
+/*     -webkit-transform: scale(0); */
+/*     transform: scale(0); */
+/* } */
+/* [type="radio"]:checked + label:after { */
+/*     opacity: 1; */
+/*     -webkit-transform: scale(1); */
+/*     transform: scale(1); */
+/* }	 */
+
+/*online offline */
+.switch {
+	position: relative;
+	height: 26px;
+	width: 146px;
+	margin: 20px auto;
+	background: #fff;
+	border-radius: 5px;
+	/*   border: 1px solid #cccccc; */
+}
+
+.switch-label {
+	position: relative;
+	z-index: 2;
+	float: left;
+	width: 70px;
+	line-height: 26px;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.switch-label:active {
+	font-weight: bold;
+}
+
+.switch-label-off {
+	padding-left: 2px;
+}
+
+.switch-label-on {
+	padding-right: 2px;
+}
+
+.switch-input {
+	display: none;
+}
+
+.switch-input:checked+.switch-label {
+	color: #fff;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+	-webkit-transition: 0.15s ease-out;
+	-moz-transition: 0.15s ease-out;
+	-ms-transition: 0.15s ease-out;
+	-o-transition: 0.15s ease-out;
+	transition: 0.15s ease-out;
+	-webkit-transition-property: color, text-shadow;
+	-moz-transition-property: color, text-shadow;
+	-ms-transition-property: color, text-shadow;
+	-o-transition-property: color, text-shadow;
+	transition-property: color, text-shadow;
+}
+
+.switch-input:checked+.switch-label-on ~ .switch-selection {
+	left: 72px;
+	/* Note: left: 50%; doesn't transition in WebKit */
+}
+
+.switch-selection {
+	position: absolute;
+	z-index: 1;
+	top: 2px;
+	left: 2px;
+	display: block;
+	width: 70px;
+	height: 22px;
+	border-radius: 3px;
+	background-color: #65bd63;
+	-webkit-transition: left 0.15s ease-out;
+	-moz-transition: left 0.15s ease-out;
+	-ms-transition: left 0.15s ease-out;
+	-o-transition: left 0.15s ease-out;
+	transition: left 0.15s ease-out;
+}
+
+.switch-blue .switch-selection {
+	background-color: #3aa2d0;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4fc9ee),
+		color-stop(100%, #3aa2d0));
+	background-image: -webkit-linear-gradient(top, #4fc9ee, #3aa2d0);
+	background-image: -moz-linear-gradient(top, #4fc9ee, #3aa2d0);
+	background-image: -ms-linear-gradient(top, #4fc9ee, #3aa2d0);
+	background-image: -o-linear-gradient(top, #4fc9ee, #3aa2d0);
+	background-image: linear-gradient(top, #4fc9ee, #3aa2d0);
+}
+
+.switch-yellow .switch-selection {
+	background-color: #c4bb61;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0dd94),
+		color-stop(100%, #c4bb61));
+	background-image: -webkit-linear-gradient(top, #e0dd94, #c4bb61);
+	background-image: -moz-linear-gradient(top, #e0dd94, #c4bb61);
+	background-image: -ms-linear-gradient(top, #e0dd94, #c4bb61);
+	background-image: -o-linear-gradient(top, #e0dd94, #c4bb61);
+	background-image: linear-gradient(top, #e0dd94, #c4bb61);
+}
+
+/* Reloder */
+body {
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	/* change if the mask should have another color then white */
+	z-index: 99;
+	/* makes sure it stays on top */
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	/* centers the loading animation horizontally one the screen */
+	top: 50%;
+	/* centers the loading animation vertically one the screen */
+	background-image:
+		url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+	/* path to your loading animation */
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+	/* is width and height divided by two */
+}
+
+/* preloader End */
+#messages {
+	font-size: 20px;
+	border: 1px solid #C0C0C0;
+	text-align: center;
+}
+
+
