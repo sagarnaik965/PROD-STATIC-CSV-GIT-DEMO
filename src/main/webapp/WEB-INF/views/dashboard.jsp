@@ -950,7 +950,7 @@ transform:rotateY(-180deg);
 <div class="col-md-4" id="newsTicker1">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<span class="glyphicon glyphicon-flag"></span><b>Boring
+								<span class="glyphicon glyphicon-flag"></span><b>Upcoming
 									Updates</b>
 							</div>
 							<div class="panel-body" style="padding-bottom: 5px;">
