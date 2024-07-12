@@ -951,7 +951,7 @@ transform:rotateY(-180deg);
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<span class="glyphicon glyphicon-flag"></span><b>
-									Updates</b>
+									Latest Updates</b>
 							</div>
 							<div class="panel-body" style="padding-bottom: 5px;">
 								<div class="row">
